@@ -5,6 +5,9 @@
 
 body {
     background: #f2f2f2;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 canvas {
@@ -16,14 +19,14 @@ canvas {
 
 p,
 a {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     color: #777;
     display: block;
     width: 400px;
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
+    font-family: 'Indie Flower', cursive;
 }
 
 .info {
@@ -35,6 +38,12 @@ a {
 
 a {
     color: #3377ee;
+}
+
+h1, h2 {
+    color: white;
+    padding: 7px;
+    font-family: 'Indie Flower', cursive;
 }
 
 
