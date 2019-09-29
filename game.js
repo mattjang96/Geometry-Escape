@@ -1,3 +1,14 @@
+var canvas = document.createElement("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width = 512; 
+canvas.height = 480; 
+document.body.appendChild(canvas);
+ctx.fillStyle = "rgb(250, 250, 250)";
+ctx.font = "18px Helvetica";
+ctx.textAlign = "justify";
+ctx.textBaseline = "top";
+ctx.fillText("Death Count: ", 20, 20);
+
 var map = {
 
     tile_size: 16,
